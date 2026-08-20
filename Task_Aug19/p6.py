@@ -1,2 +1,2 @@
 a = int(input(">>> "))
-print("Square:", a * a)
+print("Square of a:", a * a)

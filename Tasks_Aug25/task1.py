@@ -4,4 +4,4 @@ total_minutes = int(input("Enter total minutes: "))
 hours = total_minutes//60
 minutes = total_minutes%60
 
-print(f"Hours: {hours}, Remaining minutes: {minutes}")
+print(f"Hours: {hours}\n Minutes: {minutes}")

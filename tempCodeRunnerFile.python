@@ -1,0 +1,2 @@
+a = bool(input("dd: "))
+print(a)

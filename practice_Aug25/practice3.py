@@ -1,4 +1,4 @@
-# Initialize a variable balance = 1000. Perform operations using shorthand operators like +=, -=, *=, /=, %= and print the updated balance after each operation.
+# Initialize a variable balance = 1000. Perform operations using shorthand operators like +=, -=, *=, /= and print the updated balance after each operation.
 
 balance = 1000
 
@@ -13,6 +13,3 @@ print(f"balance*=2: {balance:.2f}")
 
 balance /= 3
 print(f"balance/=3: {balance:.2f}")
-
-balance %= 4
-print(f"balance%=4: {balance:.2f}")

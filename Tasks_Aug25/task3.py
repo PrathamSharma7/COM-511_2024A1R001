@@ -5,4 +5,4 @@ five_hundred_notes = amount//500
 amount%=500
 hundred_notes = amount//100
 
-print(f"Number of Rs 500 Notes: {five_hundred_notes} and Number of Rs 100 Notes: {hundred_notes}")
+print(f"Number of Rs 500 Notes: {five_hundred_notes}\nNumber of Rs 100 Notes: {hundred_notes}")

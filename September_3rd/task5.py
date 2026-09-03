@@ -5,4 +5,4 @@ Take a password and check length, presence of @ and whether first and last chara
 password = input("Enter Password: ")
 print(f"""Length: {len(password)}
 Has '@'?: {'@' in password}
-First and last characters same?: {password[0] == password[-1]}""")
+First and last characters different?: {password[0] != password[-1]}""")

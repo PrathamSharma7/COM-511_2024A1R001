@@ -10,6 +10,6 @@ for spam_keyword in spam_keywords:
     if spam_keyword in comment:
         print("Comment is spam")
         is_spam = True
-        break;
+        break
 else:
     print("Comment is not spam")

@@ -1,0 +1,13 @@
+'''
+Write a Python Program to print the following pattern for rows
+1
+1 2
+1 2 3
+1 2 3 4
+'''
+
+rows = int(input("Enter number of rows: "))
+for i in range(1, rows + 1):
+    for j in range(1, i + 1):
+        print(j, end=" ")
+    print()

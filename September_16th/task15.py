@@ -1,10 +1,10 @@
 '''
 Write a Python program to print a hollow square using stars
-* * * * *
-*       *
-*       *
-*       *
-* * * * *
+*  *  *  *  *
+*           *
+*           *
+*           *
+*  *  *  *  *
 '''
 
 n = int(input("Enter number of rows and columns: "))

@@ -1,5 +1,5 @@
 '''
-Write a Python progra, to input two lists and create a third list containing common elements.
+Write a Python program, to input two lists and create a third list containing common elements.
 '''
 
 list1 = list(map(int, input("Enter the first list: ").split()))

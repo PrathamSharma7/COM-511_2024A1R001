@@ -11,6 +11,7 @@ for i in range(n):
     marks = int(input("Enter marks: "))
     student_data.append((name, roll_no, marks))
 
+print("Students scoring over 75:")
 for student in student_data:
     if student[2] > 75:
         print(f"Name: {student[0]}, Roll No: {student[1]}, Marks: {student[2]}")

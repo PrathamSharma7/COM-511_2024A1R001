@@ -1,5 +1,5 @@
 '''
-Write a Pthon program to store two points as tuples and calculate the distance between them
+Write a Python program to store two points as tuples and calculate the distance between them
 '''
 import math
 x1 = float(input("Enter x-coordinate of point 1:"))

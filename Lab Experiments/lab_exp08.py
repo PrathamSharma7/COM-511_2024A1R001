@@ -11,6 +11,8 @@ student_records = []
 
 while True:
     roll = int(input("Enter roll number: "))
+    while (any(record[0] == roll for record in student_records)):
+        roll = int(input("Roll number already exists. Enter another roll number: "))
     name = input("Enter name: ")
     branch = input("Enter branch: ")
     cgpa = float(input("Enter CGPA: "))

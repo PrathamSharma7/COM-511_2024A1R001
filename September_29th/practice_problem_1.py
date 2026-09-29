@@ -11,10 +11,28 @@ Number of test: 4
 Test Range: (4, 7)
 '''
 
-marks = []
-n = int(input("Enter number of tests: "))
-for i in range(n):
-    mark = int(input(f"Enter marks for test {i + 1}: "))
-    marks.append(mark)
+marks = list(map(int, input("Enter the student's marks: ").split()))
 
 starting_index = ending_index = 0
+max_length = 0
+current_length = 1
+
+for i in range(1, len(marks)):
+    if marks[i] > marks[i - 1]:
+        current_length += 1
+    else:
+        if current_length > max_length:
+            max_length = current_length
+            starting_index = i - current_length
+            ending_index = i - 1
+        current_length = 1
+
+# Check at the end of the loop in case the longest sequence is at the end of the list
+if current_length > max_length:
+    max_length = current_length
+    starting_index = len(marks) - current_length
+    ending_index = len(marks) - 1
+
+print("Longest improving sequence:", tuple(marks[starting_index:ending_index + 1]))
+print("Number of tests:", max_length)
+print("Test Range:", (starting_index + 1, ending_index + 1))

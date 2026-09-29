@@ -9,7 +9,13 @@ Marks: [55,60,68,62,65,70,78,74]
 Longest improving sequence: (62, 65, 70, 78)
 Number of test: 4
 Test Range: (4, 7)
-'''
+
+Conditions:
+1. Accept at least 1 test
+2. Equal marks break the improving sequence.
+3. Test numbers begin at 1
+4. Do not sort the list, the original test order matters.
+''' 
 
 marks = list(map(int, input("Enter the student's marks: ").split()))
 

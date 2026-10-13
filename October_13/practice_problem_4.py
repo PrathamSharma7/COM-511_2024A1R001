@@ -1,5 +1,5 @@
 '''
-Craete a BankAccount class that stores an account holder's name and balance. Add instance method
+Create a BankAccount class that stores an account holder's name and balance. Add instance method
 to deposit money, withdraw money and display balance. DO NOT ALLOW WITHDRAWAL GREATER THAN AVAILABLE BALANCE
 '''
 

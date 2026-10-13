@@ -17,7 +17,10 @@ class Product:
     def display_details(self):
         print(f"Name: {self.name}\nTotal Cost: {self.total_cost}")
 
-product_1 = Product("Computer", 50000, 10)
+pname = input("Enter product name: ")
+pprice = float(input("Enter product price: "))
+pquant = int(input("Enter product quantity: "))
+product_1 = Product(pname, pprice, pquant)
 print(product_1.calculate_total_cost())
 print()
 product_1.display_details()
